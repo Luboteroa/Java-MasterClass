@@ -1,3 +1,5 @@
+package Variables;
+
 public class TypeConvertion {
     public static void main(String[] args) {
 

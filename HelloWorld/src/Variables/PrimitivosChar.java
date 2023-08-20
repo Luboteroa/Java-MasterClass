@@ -1,3 +1,5 @@
+package Variables;
+
 public class PrimitivosChar {
     public static void main(String[] args) {
         char caracter = '\u0040';

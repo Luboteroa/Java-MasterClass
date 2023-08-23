@@ -28,9 +28,14 @@ public class MostImportantMethods {
         System.out.println("tongueTwister.replace(\"T\", \".\") = " + tongueTwister.replace("t", "."));
         System.out.println("tongueTwister.indexOf(\"e\") = " + tongueTwister.indexOf("e"));
         System.out.println("tongueTwister.lastIndexOf(\"t\") = " + tongueTwister.lastIndexOf("t"));
+        System.out.println("tongueTwister.contains(\"z\") = " + tongueTwister.contains("t"));
+        System.out.println("tongueTwister.contains(\"z\") = " + tongueTwister.contains("twister"));
+        System.out.println("tongueTwister.startsWith(\"t\") = " + tongueTwister.startsWith("tongue"));
+        System.out.println("tongueTwister.endsWith(\"ter\") = " + tongueTwister.endsWith("ter"));
         
-        String replaceSpace = "Luis  Carlos  Botero Agudelo XD";
+        String replaceSpace = "   Luis  Carlos  Botero Agudelo XD";
         System.out.println("replaceSpace.replace(\" \", \"\\b\") = " + replaceSpace.replace(" ", ""));
         System.out.println("replaceSpace.replace(\" \", \"\\b\") = " + replaceSpace.replace(" ", "\b"));
+        System.out.println("replaceSpace.trim() = " + replaceSpace.trim());
     }
 }
